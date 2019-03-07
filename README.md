@@ -1,8 +1,8 @@
 # RStudio-Project-Management
-This workshop was presented to the UC Berkeley D-Lab Digital Humanities Working Group on March 7, 2019 as an overview of data science tools and keeping them organized using RStudio Projects. 
+This workshop was presented to the UC Berkeley D-Lab Digital Humanities Working Group on March 7, 2019 as an overview of data science tools and how to keep your data science projects organized using RStudio Projects. 
 
 ## Resources
-While comprehensive, this list of resources is far from exhaustive. There are many programs available to help manage your [Themes, Teams, Tools, and Timelines]("/Users/evan.admin/Desktop/RStudio-Project-Management/1-introduction.pptx") in terms of your: 
+While comprehensive, this list of resources is far from exhaustive. There are many programs available to help manage your **Themes, Teams, Tools, and Timelines** in terms of your: 
 
 - Research Design
 

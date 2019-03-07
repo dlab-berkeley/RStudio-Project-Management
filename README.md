@@ -158,6 +158,8 @@ Take your programming to the next level!
 
 [Overleaf (LaTeX):](https://www.overleaf.com/learn/latex/Tutorials) web-based LaTeX editor.
 
+[7-zip:](https://www.7-zip.org/) compress and encrypt your data! 
+
 [Computer Information Systems:](https://en.wikibooks.org/wiki/Introduction_to_Computer_Information_Systems/System_Software) familiarize yourself with systems software. 
 
 [Securing your computing environment:](https://nces.ed.gov/pubs2003/secureweb/ch_6.asp) although a little dated, this guide still covers many topics relevant today in simple language. 

@@ -1,0 +1,66 @@
+---
+title: "2-md"
+author: "D-Lab"
+date: "3/2/2019"
+output: html_document
+---
+
+# California Population Projection by County, Age, Gender and Ethnicity
+https://data.ca.gov/dataset/california-population-projection-county-age-gender-and-ethnicity
+
+# Setup
+```{r}
+library(data.table)
+library(ggplot2)
+library(lmvar)
+library(reshape2)
+library(textreadr)
+```
+
+# Import some data from the web
+```{r}
+sat = data.table::fread("https://data.ct.gov/api/views/kbxi-4ia7/rows.csv?accessType=DOWNLOAD")
+```
+
+# Quick preprocessing
+```{r}
+sat = data.frame(sat)
+sat$District = as.factor(sat$District)
+sat$School = as.factor(sat$School)
+
+str(sat)
+# View(sat)
+```
+
+# plot
+```{r}
+plot(x = sat$Test.takers..2012, y = sat$Test.takers..2013, 
+     xlab = "Test takers 2012", ylab = "Test takers 2013", 
+     main = "Number of students taking SAT test")
+```
+
+# test
+```{r}
+test = lm(sat$Test.takers..2013 ~ sat$Test.takers..2012, x = TRUE, y = TRUE)
+test
+summary(test)
+```
+
+# plot ab
+```{r}
+plot(x = sat$Test.takers..2012, y = sat$Test.takers..2013, 
+     xlab = "Test takers 2012", ylab = "Test takers 2013", 
+     main = "Number of students taking SAT test")
+abline(a = test$coefficients[1], 
+       b = test$coefficients[2],
+       col = "green3", lwd = 3)
+```
+
+# cross-validate
+```{r}
+cv.lm(test, k = 20, ks = T, seed = 1)
+```
+
+
+
+

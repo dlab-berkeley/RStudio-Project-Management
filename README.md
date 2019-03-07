@@ -25,7 +25,7 @@ Before all of the tech stuff, it usually helps to get your project off the groun
 
 [Hypotheses:](https://undsci.berkeley.edu/article/howscienceworks_19) learn about hypotheses in scientific research. 
 
-[Statistical framework:](https://www.khanacademy.org/math/statistics-probability/designing-studies)
+[Statistical framework:](https://www.khanacademy.org/math/statistics-probability/designing-studies) brush up on your statistics. 
 
 [fread:](https://www.r-bloggers.com/getting-data-from-an-online-source/) a favorite function from the "data.table" package for quickly importing data into your R session from the web - or otherwise. 
 
@@ -62,7 +62,8 @@ Use markdown to produce vibrant documents to help you rock your next presentatio
 [.pdf:](https://helpx.adobe.com/acrobat/tutorials.html) Adobe file format for document preparation. 
 
 ## Presentation
-Ensure that your presentation skills are up to speed to secure that next round of funding or wow potential employers and find the job of your dreams. 
+Ensure that your presentation skills are up to speed to secure that next round of funding or wow potential employers and find the job of your dreams.
+
 [Ten rules for structuring papers:](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) a short paper that outlines the critical steps you must consider in your scientific writing; rubric included! 
 
 [MS Powerpoint:](https://business.tutsplus.com/tutorials/how-to-learn-powerpoint--cms-29884) fantastic way to make slideshow presentations! 

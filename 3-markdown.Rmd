@@ -18,107 +18,19 @@ Bottom right: misc.
   - Create documents in the "Viewer"  
 
 # Markdown
-
 Fancy text formatting! Prepare documents that directly link to your code and vice-versa. 
 
-#### .html
-
-After you create the .html file, double click it with your mouse and it will open in your preferred web browser. 
 
 ## Stylizing text
-
 Enter text by typing normally. Use hashtage to change the header size, and **wrap words in double stars** to bold text. __Wrap them in underscores__ to italicize them! 
 
 Headers can be created by placing one hashtag, two hashtags, etc. before your text. 
 
 ## Images
+You can include images, sound, video, etc. 
+![Neat photo!](images/cars.jpg)
 
-![Include text like this: https://www.pexels.com/search/car/](/Users/evan.admin/Desktop/R for Project Management/bus.png)
+## knitr
+If you successfully installed knitr, you should see a button called "Knit" at the top of your script complete with needle and yarn. Click the drop-down menu and select "Knit to HTML". 
 
-## Example
-
-Suppose you are interested in studying the relationships between fuel efficiency and other features of the automobile such as engine size, horsepower, weight and speed. 
-
-## Software requirements
-
-To participate in this brief coding walkthrough, please visit URL and download this repository. 
-
-1) Click "Clone or Download" --> "Download Zip";  extract this file to Desktop. 
-
-(Git users should use git clone)
-
-2) [Download R version 3.5.2]()
-
-3) [Download RStudio Open Source License FREE]()
-
-Run the installers and follow the instructions for both 2) and 3) above.
-
-Shiny install: https://www.r-project.org/nosvn/pandoc/shiny.html
-
-Shiny tutorial: http://shiny.rstudio.com/tutorial/
-
-https://shiny.rstudio.com/articles/basics.html
-
-## Load data
-
-```{r}
-gap = read.csv("~/R-wrang/data/gapminder-FiveYearData.csv")
-
-# Print the data
-# mt
-
-# View data summary
-str(gap)
-
-# Check out the first five rows
-head(gap, n = 5)
-
-# View data in separate tab
-# View(mt)
-```
-
-## Summary statistics
-
-```{r}
-summary(gap)
-table(gap$continent)
-prop.table(table(gap$continent))
-
-```
-
-## Visualize
-
-Line plot
-```{r}
-library(ggplot2)
-library(reshape2)
-g = melt(gap)
-g
-ggplot(s, aes(x = epoch, y = value, color = variable)) + 
-  geom_jitter()
-```
-
-```{r}
-library(dplyr)
-library(tidyr)
-s %>%
-    gather(key,value, Skulls$mb, Skulls$bh, Skulls$bl, Skulls$nh) %>%
-    ggplot(aes(x=h, y=value, colour=key)) +
-    geom_line()
-```
-
-
-## Shiny 
-
-Use shiny to build interactive dashboards! 
-
-```{r}
-# library(shiny)
-# runExample("01_hello")
-```
-
-```{r}
-# runExample("02_text")
-```
-
-
+After you create the .html file, double click it with your mouse and it will open in your preferred web browser. 

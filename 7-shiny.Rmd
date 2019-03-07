@@ -5,7 +5,6 @@ date: "3/2/2019"
 output: html_document
 ---
 
-
 You will still define arguments for max and min, hist and bins, etc functional calls and arguments 
 ```{r}
 # https://shiny.rstudio.com/articles/basics.html

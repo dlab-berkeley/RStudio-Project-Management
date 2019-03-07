@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = sat$Percent.Meeting.Benchmark..2013 ~ sat$Test.takers..2012 + 
+    sat$Percent.Meeting.Benchmark..2012 + sat$Test.takers..2013)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-16.9500  -3.4154   0.0388   3.7004  20.7563 
+
+Coefficients:
+                                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                         -0.154606   0.901791  -0.171    0.864    
+sat$Test.takers..2012                0.011883   0.020833   0.570    0.569    
+sat$Percent.Meeting.Benchmark..2012  0.973067   0.023010  42.288   <2e-16 ***
+sat$Test.takers..2013               -0.001756   0.021178  -0.083    0.934    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.837 on 183 degrees of freedom
+  (10 observations deleted due to missingness)
+Multiple R-squared:  0.9329,	Adjusted R-squared:  0.9318 
+F-statistic: 848.4 on 3 and 183 DF,  p-value: < 2.2e-16
+

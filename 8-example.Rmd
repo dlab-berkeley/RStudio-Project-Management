@@ -166,6 +166,11 @@ model1
 
 # View output
 summary(model1)
+
+# Save output
+sink("output/model1.txt")
+print(summary(model1))
+sink() 
 ```
 
 Is linear regression an appropriate test for these data? What are the assumptions of linear regression? How would you find out? Do you need normally distributed data to run linear regression? https://stats.stackexchange.com/questions/75054/how-do-i-perform-a-regression-on-non-normal-data-which-remain-non-normal-when-tr

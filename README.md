@@ -1,4 +1,4 @@
-![](/images/bus.png "Which way to go?")
+![](/images/bus.jpg)
 
 # RStudio-Project-Management
 This workshop was presented to the UC Berkeley D-Lab Digital Humanities Working Group on March 7, 2019 as an overview of data science tools and how to keep your data science projects organized using RStudio Projects. 

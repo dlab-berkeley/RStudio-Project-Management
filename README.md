@@ -55,6 +55,8 @@ Use markdown to produce vibrant documents to help you rock your next presentatio
 
 [RMarkdown (.Rmd):](https://rmarkdown.rstudio.com/lesson-1.html) R-specific brand of markdown language.
 
+[knitr:](https://yihui.name/knitr/) R package used to "knit" your markdown into an .html, .docx, .pdf, etc. file. 
+
 [.html:](https://html.com/) markup language used to create Internet stuff. 
 
 [.docx:](https://edu.gcfglobal.org/en/word2016/) Microsoft file format for preparing text. 

@@ -1,0 +1,38 @@
+---
+title: "2-setup"
+author: "D-Lab"
+date: "3/7/2019"
+output: html_document
+---
+
+If you wish to follow along, make sure you have:  
+1. Downloaded R: https://cloud.r-project.org/  
+2. Downloaded RStudio Desktop (Open Source License FREE): https://www.rstudio.com/products/rstudio/download/  
+3. Downloaded these workshop materials: https://github.com/dlab-berkeley/RStudio-Project-Management  
+
+Once your RStudio environment is setup, run the below code manually to ensure that you have the necessary packages installed if you wish to follow along and/or use RStudio to manage your own projects. 
+
+> NOTE: this is still under construction and might or might not work for you during this pilot workshop...
+
+```{r}
+# List of packages we will use. 
+packages = c("rmarkdown", "knitr", "ggplot2", "glmnet")
+
+# Try to load each package and save the result.
+success = sapply(packages, require, character.only = T, quietly = T)
+
+# Check if any packages still need to be installed.
+if (sum(!success) > 0) {
+  
+  # Install any needed packages.
+  install.packages(packages[!success])
+  
+  # Load the newly installed packages.
+  sapply(packages[!success], require, character.only = T, quietly = T)
+}
+
+# Clean up variables.
+rm(packages, success)
+```
+
+This install code [borrowed from this](https://github.com/dlab-berkeley/MachineLearningWG/blob/master/Spring2017/Apr14-svm/r-svm.Rmd) Machine Learning Working Group session. 

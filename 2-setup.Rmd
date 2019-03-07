@@ -16,7 +16,20 @@ Once your RStudio environment is setup, run the below code manually to ensure th
 
 ```{r}
 # List of packages we will use. 
-packages = c("rmarkdown", "knitr", "ggplot2", "glmnet")
+packages = c(
+  
+  # data importation
+  "data.table",
+  
+  # visualization
+  "ggplot2", "cowplot", 
+  
+  # summary statistics
+  "psych",
+  
+  # for document preparation
+  "rmarkdown", "knitr"
+  )
 
 # Try to load each package and save the result.
 success = sapply(packages, require, character.only = T, quietly = T)
@@ -35,4 +48,4 @@ if (sum(!success) > 0) {
 rm(packages, success)
 ```
 
-This install code [borrowed from this](https://github.com/dlab-berkeley/MachineLearningWG/blob/master/Spring2017/Apr14-svm/r-svm.Rmd) Machine Learning Working Group session. 
+This install code [borrowed from this](https://github.com/dlab-berkeley/MachineLearningWG/blob/master/Spring2017/Apr14-svm/r-svm.Rmd) Machine Learning Working Group session on support vector machines. 

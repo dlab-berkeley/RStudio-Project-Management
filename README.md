@@ -36,6 +36,8 @@ Before all of the tech stuff, it usually helps to get your project off the groun
 ## Data Methods and Tools
 Be sure to also consider data methods and tools in the design of your research - this can save you time, energy, and stress as your results and discussion depend on your broader research framework. 
 
+[RStudio cheatsheets:](https://www.rstudio.com/resources/cheatsheets/) quintessential resources for RStudio users. 
+
 [Importation:](https://www.datacamp.com/community/tutorials/r-data-import-tutorial) learn how to import data using R. 
 
 [Preprocessing:](https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf) learn about data preparation with R. 
@@ -51,6 +53,8 @@ Be sure to also consider data methods and tools in the design of your research -
 [Qualtrics:](https://www.ndsu.edu/gdc/wp-content/pdf/qualtrics-step-by-step-manual.pdf) subscription-based software for data collection and analysis; especially good for surveys!
 
 [OpenRefine:](http://openrefine.org/documentation.html) open source data preparation and transformation. 
+
+[Salesforce:](https://www.salesforce.com/) manage your own business, customer service, marketic, analytics, and application development via dashboards. 
 
 ## Document Preparation
 Use markdown to produce vibrant documents to help you rock your next presentation or publication! 

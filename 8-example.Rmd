@@ -1,0 +1,172 @@
+---
+title: "8-example"
+author: "D-Lab"
+date: "3/7/2019"
+output: html_document
+---
+
+## Ask a research question, lit review, hypotheses
+
+[SAT School Participation and Performance: 2012-2013 dataset](https://catalog.data.gov/dataset/sat-school-participation-and-performance-2012-2013)  
+
+[Full report here](https://files.eric.ed.gov/fulltext/ED521173.pdf)
+
+- Was there a statistically significant difference in SAT test participation between 2012 and 2013?  
+
+- Conduct your literature review  
+
+- Convert your research question into a set of hypotheses:  
+  - NULL: there is no difference in SAT test participation between 2012-2013.  
+  - ALTERNATE: there is **some sort of** difference in SAT test participation between 2012-2013.  
+
+## Load data
+
+Designing data collection protocols and collecting data oneself is best in theory since we have better control of the generative process, but this is often not ideal in practice. Thus, it is common to rely on datasets collected by others and we should be thankful for open data :) 
+
+R can handle virtually any file type (even file types from other computational tools such as Stata, SAS, SPSS, Weka, etc.) and there are a great variety of ways to import data into R. `read.table` / `read.csv` are perhaps the most common way to read text files, although the **Import Dataset** in the "Environment" tab is by far the easiest. 
+
+The [data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) package offers one very flexible way to quickly import data. Import data about SAT test takers from the 2012-2013 school year. Visit this URL and right-click the "Comma Separated Values File" Download button and click "Copy Link Address" and paste it into the `fread` function. This works simply for .txt and .csv file formats. Simple functionality also exists for importing HTML, XML, and JSON data. 
+
+```{r}
+sat = data.table::fread("https://data.ct.gov/api/views/kbxi-4ia7/rows.csv?accessType=DOWNLOAD")
+
+str(sat)
+```
+
+Also, write this file to a .csv file and save it to the "inbound" folder in the event that this web URL breaks. A hashtag is placed before the `write.csv` function so that if we run this entire script it will not keep overwriting the data file. 
+
+```{r}
+# write.csv(sat, file = "inbound/sat.csv")
+```
+
+## Data preprocessing
+
+Convert "District" and "School" variables from character to factor (categorical) type. Drop the "District Number" variables and save this dataset as a data frame. 
+
+```{r}
+# Convert "District" and "School" to factor (categorical) type
+sat$District = as.factor(sat$District)
+sat$School = as.factor(sat$School)
+
+# Remove "District Number" column
+sat$`District Number` = NULL
+
+# Save as data frame
+sat = data.frame(sat)
+
+str(sat)
+```
+
+## Explore the cthss data - summary statistics
+
+```{r}
+summary(sat)
+psych::describe(sat[ , -1:-2])
+```
+
+If we just want to save the mean, sd, median, skew, kurtosis, and se variables, we could type: 
+
+```{r}
+sat_summary_stats = psych::describe(sat[ , -1:-2])
+sat_small_table = sat_summary_stats[, c("mean", "sd", "median", "skew", "kurtosis")]
+sat_small_table
+```
+
+Now we can save this table of summary statistics to our "tables" folder! 
+
+```{r}
+# write.csv(sat_small_table, file = "tables/Table 1 summary_stats.csv")
+```
+
+## Explore the cthss data - scatterplot
+
+```{r}
+ggplot2::ggplot(data = sat, aes(x = sat$Test.takers..2012, y = sat$Test.takers..2013)) + 
+  geom_point(size = 3) + 
+  geom_text(aes(label = School), vjust = -1.5, size = 2.5) + 
+  ggtitle("CSAT Test Takers 2012-2013") + 
+  xlab("2012") + ylab("2013") + 
+  theme_classic() + 
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+## Warning message
+Note that 10 rows were removed due to missing values.
+
+```{r}
+# Identify which rows have missing data
+unique(sat[!complete.cases(sat) , ])
+
+# Count the number of missing cases
+sum(is.na(sat))
+
+# Compute proportion of missing data
+sum(is.na(sat)) / (nrow(sat) * ncol(sat))
+```
+
+## Save scatterplot to the "figures" folder
+
+```{r}
+ggsave("figures/Figure 1 scatterplot.tiff")
+```
+
+## Analysis
+
+Is there a difference in means between test takers in 2012 compared to 2013? Remember to research the assumptions of any statistical test before employing it! Here, we will perform a Shapiro-Wilk test for normality to see if the data come from "normal" distributions (NULL hypothesis states that the sample was drawn from a normally distributed population). 
+
+```{r}
+?shapiro.test
+shapiro.test(sat$Test.takers..2012)
+shapiro.test(sat$Test.takers..2013)
+```
+
+These data do not appear to come from normal distributions! Create histograms for visual inspection: 
+
+```{r}
+# Change plotting window to accommodate plots arranged into 2 rows and 1 column
+par(mfrow = c(2,1))
+
+# Construct the histograms
+
+# 2012
+(twenty_twelve = ggplot(sat, aes(x = Test.takers..2012)) + 
+  geom_histogram(fill = "blue", color = "black") + 
+  xlab("Number of test takers 2012"))
+
+# 2013
+(twenty_thirteen = ggplot(sat, aes(x = Test.takers..2013)) + 
+  geom_histogram(fill = "goldenrod", color = "black") + 
+  xlab("Number of test takers 2013"))
+
+# arrange in grid
+(histograms = plot_grid(twenty_twelve, twenty_thirteen,
+                        labels = c("A)", "B)"),
+                        nrow = 2))
+```
+
+## Save histograms
+
+Save histograms to the "figures" folder
+
+```{r}
+ggsave("figures/Figure 2 histograms.tiff")
+```
+
+## Linear regression
+
+Of the independent variables 1) number of test takers in 2012, 2) percent meeting benchmark in 2012, and 3) number of test takers in 2013, which is best at predicting the percentage of students meeting the benchmark in 2013?
+
+```{r}
+model1 = lm(sat$Percent.Meeting.Benchmark..2013 ~ sat$Test.takers..2012 + sat$Percent.Meeting.Benchmark..2012 + sat$Test.takers..2013)
+
+# View coefficients
+model1
+
+# View output
+summary(model1)
+```
+
+Is linear regression an appropriate test for these data? What are the assumptions of linear regression? How would you find out? Do you need normally distributed data to run linear regression? https://stats.stackexchange.com/questions/75054/how-do-i-perform-a-regression-on-non-normal-data-which-remain-non-normal-when-tr
+
+What other tests might be better suited to answer your questions? 
+

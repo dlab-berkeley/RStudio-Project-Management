@@ -1,0 +1,198 @@
+"","District Number","District","School","Test-takers: 2012","Test-takers: 2013","Test-takers: Change%","Participation Rate (estimate): 2012","Participation Rate (estimate): 2013","Participation Rate (estimate): Change%","Percent Meeting Benchmark: 2012","Percent Meeting Benchmark: 2013","Percent Meeting Benchmark: Change%"
+"1",26111,"Ansonia","Ansonia High School",118,104,-12,67,61,-6,18,18,0
+"2",46111,"Avon","Avon High School",254,243,-4,90,89,-1,73,75,2
+"3",76111,"Berlin","Berlin High School",216,220,2,81,82,1,42,49,7
+"4",96111,"Bethel","Bethel High School",200,190,-5,86,82,-4,51,49,-2
+"5",116111,"Bloomfield","Bloomfield High School",116,130,12,79,89,10,11,8,-3
+"6",116211,"Bloomfield","Big Picture High School",14,30,114,100,100,0,7,7,0
+"7",126111,"Bolton","Bolton High School",62,70,13,85,96,11,55,57,2
+"8",146111,"Branford","Branford High School",196,213,9,77,84,7,47,44,-3
+"9",156111,"Bridgeport","Bassick High School",105,122,16,52,60,8,3,5,2
+"10",156211,"Bridgeport","Central Magnet High School",346,305,-12,78,69,-9,14,14,0
+"11",156311,"Bridgeport","Warren Harding High School",155,113,-27,42,30,-12,5,3,-2
+"12",176111,"Bristol","Bristol Center High School",210,200,-5,68,65,-3,47,41,-6
+"13",176211,"Bristol","Bristol Eastern High School",212,190,-10,70,62,-8,42,35,-7
+"14",186111,"Brookfield","Brookfield High School",227,219,-4,90,87,-3,57,59,2
+"15",236111,"Canton","Canton High School",106,96,-9,89,81,-8,75,66,-9
+"16",256111,"Cheshire","Cheshire High School",367,326,-11,91,80,-11,61,67,6
+"17",276111,"Clinton","The Morgan School",86,104,21,69,83,14,49,45,-4
+"18",286111,"Colchester","Bacon Academy",200,194,-3,77,75,-2,46,41,-5
+"19",326111,"Coventry","Coventry High School",81,90,11,53,59,6,49,49,0
+"20",336111,"Cromwell","Cromwell High School",106,105,-1,76,76,0,52,45,-7
+"21",346111,"Danbury","Danbury High School",447,470,5,68,71,3,34,34,0
+"22",346211,"Danbury","Alternative Center for Excellence",7,NA,NA,37,21,-16,14,25,11
+"23",356111,"Darien","Darien High School",295,307,4,95,99,4,80,86,6
+"24",376111,"Derby","Derby High School",59,46,-22,66,51,-15,27,15,-12
+"25",406111,"East Granby","East Granby High School",45,51,13,73,82,9,67,57,-10
+"26",416111,"East Haddam","Nathan Hale-Ray High School",78,72,-8,84,77,-7,44,54,10
+"27",426111,"East Hampton","East Hampton High School",120,102,-15,77,65,-12,55,61,6
+"28",436211,"East Hartford","East Hartford High School",262,256,-2,70,69,-1,17,15,-2
+"29",436311,"East Hartford","Connecticut International Baccalaureate Academy",33,32,-3,92,89,-3,52,59,7
+"30",446111,"East Haven","East Haven High School",134,145,8,71,77,6,25,20,-5
+"31",456111,"East Lyme","East Lyme High School",210,238,13,70,79,9,59,67,8
+"32",476111,"East Windsor","East Windsor High School",62,62,0,76,76,0,34,32,-2
+"33",486111,"Ellington","Ellington High School",151,151,0,78,78,0,53,51,-2
+"34",496111,"Enfield","Enfield High School",115,101,-12,64,56,-8,36,30,-6
+"35",496211,"Enfield","Enrico Fermi High School",178,165,-7,64,60,-4,38,39,1
+"36",516011,"Fairfield","Fairfield Ludlowe High School",317,323,2,89,91,2,62,66,4
+"37",516211,"Fairfield","Fairfield Warde High School",275,255,-7,81,75,-6,61,60,-1
+"38",526111,"Farmington","Farmington Senior High School",269,282,5,92,97,5,59,68,9
+"39",546111,"Glastonbury","Glastonbury High School",459,508,11,90,100,10,74,73,-1
+"40",566111,"Granby","Granby Memorial High School",173,181,5,92,96,4,66,65,-1
+"41",576111,"Greenwich","Greenwich High School",559,604,8,87,94,7,69,69,0
+"42",586211,"Griswold","Griswold High School",104,105,1,60,61,1,34,37,3
+"43",596111,"Groton","Robert E Fitch Senior High School",227,222,-2,72,70,-2,44,37,-7
+"44",606111,"Guilford","Guilford High School",260,253,-3,89,87,-2,61,68,7
+"45",626111,"Hamden","Hamden High School",368,340,-8,81,75,-6,29,28,-1
+"46",646011,"Hartford","Culinary Arts Academy",30,44,47,71,100,29,0,0,0
+"47",646411,"Hartford","Classical Magnet School",82,91,11,98,100,2,20,24,4
+"48",646511,"Hartford","Sport and Medical Science Academy",89,91,2,90,92,2,20,14,-6
+"49",646611,"Hartford","Pathways of Technology Magnet School",66,67,2,81,83,2,9,9,0
+"50",646711,"Hartford","University High School of Science and Engineering",78,97,24,100,100,0,19,30,11
+"51",646911,"Hartford","Capitol Preparatory magnet School",34,38,12,97,100,3,6,13,7
+"52",647111,"Hartford","Bulkeley High School Upper",169,163,-4,83,80,-3,2,2,0
+"53",647211,"Hartford","Hartford Public High School Engineering and Green Technology Academy",82,96,17,76,89,13,0,1,1
+"54",647411,"Hartford","HPHS Law and Government Academy",75,101,35,97,100,3,1,5,4
+"55",647511,"Hartford","HPHS Nursing Academy",77,102,32,92,100,8,5,0,-5
+"56",647611,"Hartford","High School Inc.",28,77,175,76,100,24,0,3,3
+"57",647711,"Hartford","Journalism and Media High School",77,56,-27,100,78,-22,1,4,3
+"58",647811,"Hartford","OPPortunity High School",38,46,21,100,100,0,0,2,2
+"59",696111,"Killingly","Killingly High School",93,93,0,57,57,0,28,39,11
+"60",716211,"Lebanon","Lyman Memorial High School",87,84,-3,73,71,-2,49,45,-4
+"61",726111,"Ledyard","Ledyard High School",144,164,14,71,81,10,47,51,4
+"62",746111,"Litchfield","Litchfield High School",90,76,-16,86,72,-14,68,50,-18
+"63",766111,"Madison","Daniel Hand High School",294,296,1,90,90,0,64,72,8
+"64",776111,"Manchester","Manchester High School",267,251,-6,67,63,-4,30,31,1
+"65",806111,"Meriden","Francis T Maloney High School",146,143,-2,53,52,-1,28,37,9
+"66",806211,"Meriden","Orville H Platt High School",132,125,-5,56,53,-3,21,19,-2
+"67",809911,"Meriden","Another School """"Alternative Education Program""""",7,NA,NA,NA,NA,NA,NA,NA,NA
+"68",836211,"Middletown","Middletown High School",213,238,12,76,84,8,33,35,2
+"69",846211,"Milford","Jonathan Law High School",175,168,-4,68,65,-3,37,35,-2
+"70",846311,"Milford","Joseph A Foran High School",200,217,9,82,89,7,41,37,-4
+"71",856111,"Monroe","Masuk High School",308,277,-10,88,79,-9,53,48,-5
+"72",866111,"Montville","Montville High School",130,112,-14,64,55,-9,37,43,6
+"73",886111,"Naugatuck","Naugatuck High School",206,180,-13,56,49,-7,31,23,-8
+"74",896111,"New Britain","New Britain High School",235,204,-13,45,39,-6,24,25,1
+"75",906111,"New Canaan","New Canaan High School",306,310,1,93,94,1,82,83,1
+"76",916111,"New Fairfield","New Fairfield High School",208,220,6,90,96,6,61,52,-9
+"77",936011,"New Haven","Metropolitan Business Academy",37,77,108,97,100,3,5,3,-2
+"78",936111,"New Haven","Wilbur Cross High School",210,165,-21,62,49,-13,18,21,3
+"79",936211,"New Haven","James Hillhouse High School",157,186,18,100,100,0,4,4,0
+"80",936311,"New Haven","Hill Regional Career Magnet High School",149,150,1,100,100,0,14,15,1
+"81",936411,"New Haven","Cooperative Arts/human Magnet",113,160,42,86,100,14,12,16,4
+"82",936511,"New Haven","Polly T McCabe Center",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83",936611,"New Haven","High School in the Community",37,58,57,86,100,14,5,2,-3
+"84",936711,"New Haven","Sound School",70,71,1,86,88,2,23,13,-10
+"85",936811,"New Haven","Hyde Leadership School",37,30,-19,86,70,-16,0,0,0
+"86",936911,"New Haven","Riverside Education Academy",12,14,17,100,100,0,0,0,0
+"87",937011,"New Haven","New Haven Academy",30,62,107,100,100,0,20,6,-14
+"88",946111,"Newington","Newington High School",248,283,14,70,80,10,50,47,-3
+"89",956111,"New London","New London High School",117,131,12,58,65,7,18,16,-2
+"90",966111,"New Milford","New Milford High School",306,298,-3,86,84,-2,53,48,-5
+"91",976111,"Newtown","Newton High School",343,392,14,86,99,13,61,61,0
+"92",996111,"North Branford","North Branford High School",132,143,8,83,89,6,43,43,0
+"93",1016111,"North Haven","North Haven High School",234,237,1,83,84,1,44,42,-2
+"94",1026111,"North Stonington","Wheeler Middle/High School",35,39,11,67,75,8,46,41,-5
+"95",1036111,"Norwalk","Norwalk High School",262,246,-6,78,73,-5,36,39,3
+"96",1036211,"Norwalk","Brien Mcmahon High School",299,276,-8,70,64,-6,25,34,9
+"97",1046111,"Norwich","Thames River Academy",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98",1066111,"Old Saybrook","Old Saybrook Senior High School",133,124,-7,92,86,-6,58,56,-2
+"99",1086011,"Oxford","Oxford High School",114,127,11,80,89,9,46,43,-3
+"100",1096111,"Plainfield","Plainfield High School",92,96,4,52,54,2,34,24,-10
+"101",1106111,"Plainville","Plainville High School",135,144,7,71,76,5,38,38,0
+"102",1116111,"Plymouth","Terryville High School",78,73,-6,68,63,-5,38,40,2
+"103",1136111,"Portland","Portland High School",63,72,14,73,84,11,57,60,3
+"104",1166111,"Putnam","Putnam High School",35,46,31,61,81,20,31,22,-9
+"105",1186111,"Ridgefield","Ridgefield High School",414,375,-9,93,84,-9,74,78,4
+"106",1196111,"Rocky Hill","Rocky Hill High School",164,141,-14,80,69,-11,40,51,11
+"107",1246111,"Seymour","Seymour High School",108,116,7,82,88,6,31,33,2
+"108",1266111,"Shelton","Shelton High School",334,314,-6,77,73,-4,38,43,5
+"109",1286111,"Simsbury","Simsbury High School",383,363,-5,93,88,-5,73,74,1
+"110",1296111,"Somers","Somers High School",111,115,4,80,83,3,55,56,1
+"111",1316211,"Southington","Southington High School",379,371,-2,78,76,-2,50,54,4
+"112",1326211,"South Windsor","South Windsor High School",329,316,-4,89,86,-3,57,60,3
+"113",1346111,"Stafford","Stafford High School",76,83,9,57,62,5,57,48,-9
+"114",1356111,"Stamford","Stamford High School",251,320,27,70,89,19,31,33,2
+"115",1356311,"Stamford","Westhill High School",398,332,-17,67,56,-11,41,42,1
+"116",1356411,"Stamford","Academy of Information Technology",133,142,7,82,88,6,47,51,4
+"117",1376111,"Stonington","Stonington High School",131,148,13,73,83,10,38,48,10
+"118",1386111,"Stratford","Stratford High School",178,165,-7,70,65,-5,25,30,5
+"119",1386211,"Stratford","Frank S. Bunnell High School",214,213,0,82,82,0,29,36,7
+"120",1396111,"Suffield","Suffield High School",156,175,12,78,87,9,53,58,5
+"121",1406211,"Thomaston","Thomaston High School",52,55,6,62,65,3,33,36,3
+"122",1416111,"Thompson","Tourtellotte Memorial High School",57,49,-14,66,57,-9,33,45,12
+"123",1426111,"Tolland","Tolland High School",183,194,6,82,87,5,56,59,3
+"124",1436111,"Torrington","Torrington High School",150,156,4,61,63,2,41,37,-4
+"125",1446111,"Trumbull","Trumbull High School",490,472,-4,90,87,-3,57,55,-2
+"126",1466111,"Vernon","Rockville High School",177,151,-15,74,63,-11,32,38,6
+"127",1486111,"Wallingford","Lyman Hall High School",202,185,-8,71,65,-6,44,46,2
+"128",1486211,"Wallingford","Mark T Sheehan High School",192,185,-4,80,77,-3,46,56,10
+"129",1516011,"Waterbury","Waterbury Arts Magnet School",88,72,-18,85,69,-16,27,18,-9
+"130",1516211,"Waterbury","Crosby High School",138,146,6,48,51,3,9,4,-5
+"131",1516311,"Waterbury","Wilby High School",132,136,3,43,45,2,5,12,7
+"132",1516411,"Waterbury","John F Kennedy High School",155,175,13,50,56,6,15,24,9
+"133",1526111,"Waterford","Waterford High School",171,173,1,72,72,0,44,51,7
+"134",1536111,"Watertown","Watertown High School",182,206,13,80,90,10,36,38,2
+"135",1546111,"Westbrook","Westbrook High School",52,54,4,68,70,2,44,46,2
+"136",1556111,"West Hartford","Conard High School",290,377,30,89,100,11,50,57,7
+"137",1556211,"West Hartford","Hall High School",332,331,0,87,87,0,63,60,-3
+"138",1566111,"West Haven","West Haven High School",203,222,9,69,75,6,21,19,-2
+"139",1576111,"Weston","Weston High School",156,149,-4,83,79,-4,81,83,2
+"140",1586111,"Westport","Staples High School",363,376,4,85,88,3,81,84,3
+"141",1596111,"Wethersfield","Wethersfield High School",223,213,-4,77,73,-4,48,55,7
+"142",1616111,"Wilton","Wilton High School",301,300,0,95,95,0,82,81,-1
+"143",1636111,"Windham","Windham High School",73,99,36,45,60,15,27,34,7
+"144",1646111,"Windsor","Windsor High School",231,247,7,85,91,6,26,28,2
+"145",1656111,"Windsor Locks","Windsor Locks High School",83,92,11,55,61,6,37,28,-9
+"146",1666111,"Wolcott","Wolcott High School",173,175,1,77,78,1,39,42,3
+"147",2016112,"Regional 01","Housatonic Valley Regional High School",99,67,-32,72,49,-23,40,43,3
+"148",2046112,"Regional 04","Valley Regional High School",113,120,6,73,78,5,62,69,7
+"149",2056112,"Regional 05","Amity Regional High School",381,348,-9,87,80,-7,61,63,2
+"150",2066112,"Regional 06","Wamogo Regional High School",65,68,5,76,80,4,49,46,-3
+"151",2076112,"Regional 07","Northwestern Regional High School",139,131,-6,76,71,-5,58,51,-7
+"152",2086112,"Regional 08","Rham High School",237,223,-6,82,77,-5,62,69,7
+"153",2096112,"Regional 09","Joel Barlow High School",220,220,0,90,90,0,68,70,2
+"154",2106112,"Regional 10","Lewis S Mills High School",192,159,-17,84,69,-15,49,65,16
+"155",2116112,"Regional 11","Parish Hill High School",25,21,-16,63,53,-10,32,52,20
+"156",2126112,"Regional 12","Shepaug Valley High School",49,73,49,71,100,29,53,58,5
+"157",2136112,"Regional 13","Coginchaug Regional High School",116,128,10,82,91,9,49,55,6
+"158",2146112,"Regional 14","Nonnewaug High School",159,162,2,82,83,1,50,56,6
+"159",2156212,"Regional 15","Pomperaug High School",292,276,-5,91,86,-5,63,62,-1
+"160",2166012,"Regional 16","Woodland Regional High School",147,143,-3,71,69,-2,39,44,5
+"161",2176112,"Regional 17","Haddam-Killingworth High School",155,135,-13,86,75,-11,45,46,1
+"162",2186112,"Regional 18","Lyme-old Lyme High School",82,95,16,81,94,13,65,64,-1
+"163",2196112,"Regional 19","Edwin O Smith High School",216,247,14,66,76,10,67,69,2
+"164",2415114,"Capitol Region Education Council","Greater Hartford Academy Mathematics and Science",22,40,82,100,100,0,73,55,-18
+"165",2415214,"Capitol Region Education Council","CREC - Public Safety Academy Interdistrict Magnet School",13,22,69,87,100,13,0,0,0
+"166",2416114,"Capitol Region Education Council","Metropolitan Leaning Center Magnet School",66,88,33,90,100,10,32,22,-10
+"167",2416314,"Capitol Region Education Council","Great Path Academy at Manchester Community College",71,73,3,100,100,0,14,12,-2
+"168",2416414,"Capitol Region Education Council","Greater Hartford Academy of the Arts",75,80,7,83,89,6,27,26,-1
+"169",2456014,"LEARN","Connecticut River Academy",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170",2456214,"LEARN","Three Rivers Middle College Magnet School",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171",2536014,"Eastern Connecticut Regional Educational Service C","Arts at the Capital Theatre Performing Arts Magnet",25,19,-24,76,58,-18,28,32,4
+"172",2536114,"Eastern Connecticut Regional Educational Service C","Quinebaug Valley Middle College High School",NA,13,NA,NA,38,NA,NA,23,NA
+"173",2686113,"Common Ground High","Common Ground High School",23,25,9,100,100,0,22,24,2
+"174",2696113,"The Bridge Academy District","Bridge Academy Charter School",33,36,9,89,97,8,6,6,0
+"175",2726113,"Explorations District","Explorations Charter School",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"176",2795113,"Amistad Academy District","Amistad Academy",34,31,-9,100,100,0,32,39,7
+"177",2826013,"Stamford Academy","Stamford Academy",11,NA,NA,28,NA,NA,0,NA,NA
+"178",9001116,"Connecticut Technical High School System","Bullard Havens Technical High School",127,129,2,64,65,1,0,2,2
+"179",9001216,"Connecticut Technical High School System","Henry Abbott Technical High School",80,63,-21,50,40,-10,10,16,6
+"180",9001316,"Connecticut Technical High School System","Harvard H Ellis Technical High School",28,29,4,22,23,1,18,21,3
+"181",9001416,"Connecticut Technical High School System","Eli Whitney High School",76,31,-59,65,26,-39,0,0,0
+"182",9001516,"Connecticut Technical High School System","Albert I Prince Technical High School",92,88,-4,58,55,-3,1,0,-1
+"183",9001616,"Connecticut Technical High School System","Howell Cheney Technical High School",80,74,-8,56,52,-4,14,12,-2
+"184",9001716,"Connecticut Technical High School System","Horace C Wilcox Technical High School",126,105,-17,62,52,-10,13,14,1
+"185",9001816,"Connecticut Technical High School System","Vinal Technical High School",36,57,58,29,45,16,17,9,-8
+"186",9001916,"Connecticut Technical High School System","E C Goodwin Technical High School",38,62,63,30,49,19,8,6,-2
+"187",9002016,"Connecticut Technical High School System","Norwich Technical High School",51,64,25,34,42,8,22,17,-5
+"188",9002216,"Connecticut Technical High School System","Oliver Wolcott Technical High School",64,79,23,39,48,9,23,27,4
+"189",9002316,"Connecticut Technical High School System","Warren F Kaynor Technical High School",99,113,14,57,65,8,10,8,-2
+"190",9002416,"Connecticut Technical High School System","Windham Technical High School",83,79,-5,61,59,-2,12,14,2
+"191",9002516,"Connecticut Technical High School System","Emmett Obrien Technical High School",51,38,-25,39,29,-10,12,5,-7
+"192",9002616,"Connecticut Technical High School System","Platt Technical High School",120,116,-3,56,54,-2,13,18,5
+"193",9002716,"Connecticut Technical High School System","E. T. Grasso Technical High School",59,57,-3,40,38,-2,19,5,-14
+"194",9016122,"Norwich Free Academy","Norwich Free Academy",399,356,-11,70,63,-7,48,46,-2
+"195",9026122,"The Gilbert School","Gilbert School",60,54,-10,71,64,-7,37,26,-11
+"196",9036122,"Woodstock Academy","Woodstock Academy",215,227,6,76,80,4,50,47,-3
+"197",9999999,"State","",NA,NA,1,73,73,1,44,45,1

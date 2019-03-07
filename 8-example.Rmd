@@ -57,7 +57,7 @@ sat = data.frame(sat)
 str(sat)
 ```
 
-## Explore the cthss data - summary statistics
+## Explore the sat data - summary statistics
 
 ```{r}
 summary(sat)
@@ -78,7 +78,7 @@ Now we can save this table of summary statistics to our "tables" folder!
 # write.csv(sat_small_table, file = "tables/Table 1 summary_stats.csv")
 ```
 
-## Explore the cthss data - scatterplot
+## Explore the sat data - scatterplot
 
 ```{r}
 ggplot2::ggplot(data = sat, aes(x = sat$Test.takers..2012, y = sat$Test.takers..2013)) + 
@@ -112,7 +112,7 @@ ggsave("figures/Figure 1 scatterplot.tiff")
 
 ## Analysis
 
-Is there a difference in means between test takers in 2012 compared to 2013? Remember to research the assumptions of any statistical test before employing it! Here, we will perform a Shapiro-Wilk test for normality to see if the data come from "normal" distributions (NULL hypothesis states that the sample was drawn from a normally distributed population). 
+Remember to research the assumptions of any statistical test before employing it! Here, we will perform a Shapiro-Wilk test for normality to see if the data come from "normal" distributions (NULL hypothesis states that the sample was drawn from a normally distributed population). 
 
 ```{r}
 ?shapiro.test

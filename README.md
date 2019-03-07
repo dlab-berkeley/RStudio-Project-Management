@@ -1,4 +1,5 @@
 # RStudio-Project-Management
+This workshop was presented to the UC Berkeley D-Lab Digital Humanities Working Group on March 7, 2019 as an overview of data science tools and keeping them organized using RStudio Projects. 
 
 ## Resources
 While comprehensive, this list of resources is far from exhaustive. There are many programs available to help manage your Themes, Teams, Tools, and Timelines in terms of your: 
@@ -73,7 +74,7 @@ Ensure that your presentation skills are up to speed to secure that next round o
 [Shiny:](https://shiny.rstudio.com/articles/basics.html) awesome way to build apps and widgets using R code. 
 
 ## Organization
-Stay organized! Keep track of your who, whats, wheres, whens, whys, and hows. 
+Stay organized! Keep track of your whos, whats, wheres, whens, whys (and especially hows). 
 
 [Box:](https://bconnected.berkeley.edu/collaboration-services/box) a great way to backup your stuff online. 
 

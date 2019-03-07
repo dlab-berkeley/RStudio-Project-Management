@@ -120,7 +120,9 @@ shapiro.test(sat$Test.takers..2012)
 shapiro.test(sat$Test.takers..2013)
 ```
 
-These data do not appear to come from normal distributions! Create histograms for visual inspection: 
+These data do not appear to come from normal distributions! Is this meaningful? (see the very end of the file). [What's up with](https://statmodeling.stat.columbia.edu/2016/03/07/29212/) p-values anyway?
+
+Anyway, create histograms for visual inspection: 
 
 ```{r}
 # Change plotting window to accommodate plots arranged into 2 rows and 1 column

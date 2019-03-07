@@ -123,7 +123,8 @@ Click the links below to learn more about accessing greater compute power, memor
 
 Benten GPU server - no public link...(yet?). 
 
-[Savio](http://research-it.berkeley.edu/services/high-performance-computing/user-guide/savio-user-guide) UC Berkeley condo cluster maintained by Research IT. 
+[Savio](http://research-it.berkeley.edu/services/high-performance-computing/user-guide/savio-user-guide) UC Berkeley condo cluster maintained by Research IT.
+
 [XSEDE:](http://research-it.berkeley.edu/services/high-performance-computing/user-guide/savio-user-guide) NSF-funded supercomputer; best of the best?
 
 [Bridges:](http://research-it.berkeley.edu/services/high-performance-computing/user-guide/savio-user-guide) seeks to bring supercomputing to those unfamiliar with it; accessible through [XSEDE User Portal](https://portal.xsede.org/#/guest).

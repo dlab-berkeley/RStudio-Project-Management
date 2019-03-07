@@ -3,8 +3,10 @@
 ## Resources
 
 ## Research design
-[- Research question](http://guides.lib.berkeley.edu/c.php?g=63246)
-[- Literature review](http://guides.lib.berkeley.edu/Energy/lit-review)
+[Research question](http://guides.lib.berkeley.edu/c.php?g=63246)
+
+[Literature review](http://guides.lib.berkeley.edu/Energy/lit-review)
+
 [Hypotheses](https://undsci.berkeley.edu/article/howscienceworks_19)
 [Statistical framework](https://www.khanacademy.org/math/statistics-probability/designing-studies)
 [fread](https://www.r-bloggers.com/getting-data-from-an-online-source/)
